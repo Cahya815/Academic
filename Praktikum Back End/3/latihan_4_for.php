@@ -1,0 +1,10 @@
+<html>
+<body>
+<?php
+for ($i = 0; $i < 10; $i++) {
+    if ($i == 3) break;
+}
+echo ("loop berhenti di i = $i");
+?>
+</body>
+</html>
