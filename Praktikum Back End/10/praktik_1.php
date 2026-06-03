@@ -7,7 +7,7 @@
 include 'connect.php';
 if(isset($_GET['save_button']))
 {
-$StrSQL="insert into product values ('','" . $_GET['name'] . "'"
+$StrSQL="insert into products values ('','" . $_GET['name'] . "'"
 . ",'" . $_GET['description'] . "'"
 . ",'" . $_GET['price'] . "'"
 . ",'" . $_GET['discount'] . "'"

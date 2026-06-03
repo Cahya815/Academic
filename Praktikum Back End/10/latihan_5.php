@@ -5,7 +5,8 @@
 <body bgcolor="#FFFFFF">
 <?php
 include 'connect.php';
-$StrSQL = "select products.code, products.name, products.description, products.price, products.discount, products.status_code, category.category from products join category on products.category_code = category.code";
+$StrSQL = "select products.code, products.name, products.description, products.price, 
+products.discount, products.status_code, category.category from products join category on products.category_code = category.code";
 echo $StrSQL . "<br>";
 $result = mysqli_query($id, $StrSQL);
 if ($result)
