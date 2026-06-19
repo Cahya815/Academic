@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>update Category</title>
+<title>update Categor</title>
 </head>
 <body bgcolor="#FFFFFF">
 <?php
